@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card{
+    margin: 1rem;
+    width: 60vw;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+
+.card-body, .tarefa-card{
+    padding: 0;
+    margin: 0;
+}
+
+.card-header, .card-footer{
+    background: transparent;
+    border: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+.card-header{
+    font-size: 36px;
+}
+
+.card-footer{
+    font-size: 16px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.btn{
+    background-color: #fff !important;
+    color: #000 !important;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover, .btn:focus{
+    transform: scale(.97);
+    background: #fff;
+    color: #333;
+}
+
+.tarefa-card{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
